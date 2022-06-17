@@ -1,0 +1,54 @@
+.contain{
+    background-color: pink;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.yes{
+    height: 30px;
+    align-self: center;
+    text-decoration: none;
+    color: #333;
+    width: max-content;
+    line-height: 1.6rem;
+    background-color: aquamarine;
+    padding: 0 8px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+.yes:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+.no:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    display: none;
+}
+.no{
+    height: 30px;
+    align-self: center;
+    text-decoration: none;
+    color: #333;
+    width: max-content;
+    line-height: 1.6rem;
+    background-color: #f85555;
+    padding: 0 22px;
+    border-radius: 8px;
+    transition: opacity .4s ease;
+}
+h1{
+    font-size: 3.0rem;
+    text-align: center;
+}
